@@ -6,9 +6,14 @@ body {
     width: 960px;
 }
 
+header {
+    overflow: auto;
+}
+
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
+    margin-left: 30px;
     width: 240px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -16,21 +21,62 @@ h1 {
 
 h2 {
     color: #4aaaa5;
+    text-align: left;
+    margin-left: 30px;
 }
 
 p {
-    background-color: #ffffff;
     color: #777777;
     font-size: 18px;
-    float: right;
-
+    text-align: center;
 }
+ .photo {
+     
+ }
 
 nav {
-    float: right;
-    position: inherit;
+    margin-top: 28px;
+    width: 240px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.white-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 960px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #777777;
+}
+
+.content-wrapper{
+    background-color: #ffffff;
+    margin: 20px;
+    margin-top: 50px;
+    clear: both;
+}
+
+.title-name {
+    float: left;
+    left: 30px;
     
 }
-.white-box {
-    background-color: #ffffff;
+.link-wrapper {
+    float: right;
+  
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 5%;
+    width: 100%;
+    background:#777777;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #4aaaa5;
 }
