@@ -1,13 +1,9 @@
 body {
-    background-color: white;
+    background-color:beige;
     background-blend-mode: hard-light;
     color: #777777;
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 960px;
-}
-
-.white-box {
-    background-color: #ffffff;
 }
 
 h1 {
@@ -23,11 +19,18 @@ h2 {
 }
 
 p {
+    background-color: #ffffff;
     color: #777777;
     font-size: 18px;
     float: right;
+
 }
 
-section {
-    float: left;
+nav {
+    float: right;
+    position: inherit;
+    
+}
+.white-box {
+    background-color: #ffffff;
 }
