@@ -1,7 +1,33 @@
 body {
-    background-color:#ffffff;
+    background-color: white;
+    background-blend-mode: hard-light;
+    color: #777777;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 960px;
+}
+
+.white-box {
+    background-color: #ffffff;
 }
 
 h1 {
-    background-color: #ffffff
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 240px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+p {
+    color: #777777;
+    font-size: 18px;
+    float: right;
+}
+
+section {
+    float: left;
 }
