@@ -10,6 +10,19 @@ header {
     overflow: auto;
 }
 
+.list {
+    background: #ffffff;
+    list-style-type: none;
+    width: 400px;
+    }
+
+.list-spec {
+    border-right: #777777 1px solid;
+    float: right;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -28,15 +41,16 @@ h2 {
 p {
     color: #777777;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
 }
  .photo {
-     
+     float: left;
+     margin-right: 5px;
  }
 
 nav {
     margin-top: 28px;
-    width: 240px;
+    width: 500px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -55,7 +69,7 @@ nav {
 .content-wrapper{
     background-color: #ffffff;
     margin: 20px;
-    margin-top: 50px;
+    margin-top: 80px;
     clear: both;
 }
 
